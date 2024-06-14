@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
-   const downloadLink = '../../public/my.apk'; // Replace this URL with your file path or URL
+   const downloadLink = '../../public/progo.apk'; // Replace this URL with your file path or URL
 
    const handleDownload = () => {
     const link = document.createElement('a');
