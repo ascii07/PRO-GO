@@ -8,7 +8,7 @@ const Navbar = () => {
    const handleDownload = () => {
     const link = document.createElement('a');
     link.href = downloadLink;
-    link.setAttribute('download', 'winnerGoApp.apk');
+    link.setAttribute('download', 'progoapp.apk');
      document.body.appendChild(link);
     link.click();
      link.remove();
